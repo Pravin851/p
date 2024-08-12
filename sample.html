@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .calculator {
+        display: -webkit-inline-box;
+        background-color: rgb(179, 120, 179);
+        padding: 20px;
+
+        }
+
+        button{
+            text-align: center;
+            color:black;
+            background-color: burlywood;
+        
+        }
+        input{
+            color: #d31515;
+            border-style: inset;
+        }
+        b{
+            color: blue;
+        }
+        body {
+			transition: background-color 1s ease-in-out;
+		}
+
+    </style>
+
+</head>
+<body>
+    <script src = "sam.js"></script>
+    <box class="calculator">
+        <center><b>Calculator</b></center><br>
+        <input id="a" type="text" a="a" value=""><br>
+        <input id="b" type="text" a="b" value=""><br>
+        <button onclick="add()">add</button>
+        <button onclick="sub()">sub</button>
+        <button onclick="mult()">mult</button>
+        <button onclick="div()">div</button><br>
+        <b><hr></b><hr><hr>
+        <center><b>Total:</b></center>
+        <input id='out'><br>
+       
+    </box>
+</body>
+</html>

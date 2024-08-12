@@ -1,0 +1,24 @@
+ul{
+   color: #dabb0ef5; 
+}
+h2
+ {
+    color:rgb(12, 9, 29);
+    
+}
+ol{
+    color: #0aeb28;
+}
+
+body{
+    background-image: url("image/dragon-ball-super.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+}
+.oval-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("image/Screenshot\ 2024-08-06\ 142710.png");
+    background-position:center; 
+  }
